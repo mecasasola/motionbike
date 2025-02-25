@@ -243,7 +243,11 @@ footer img {
 }
 @media (max-width: 900px) {
   .container-newletter {
+<<<<<<< HEAD
     padding-left: 50px;
+=======
+    margin-left: 600px;
+>>>>>>> fce1953a4f07fa47b3e931b6b5467da389ffe2c8
   }
 }
 
