@@ -107,7 +107,8 @@ nav ul li a {
 }
 
 .productos-image img {
-    border-radius: .3125rem; /* Bordes redondeados para la imagen */
+    border-radius: .3125rem;
+    max-width: 100%; /* Bordes redondeados para la imagen */
 }
 
 .productos h2 {
@@ -183,6 +184,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    justify-content: center;
         
 }
 
@@ -228,4 +230,35 @@ footer {
 footer img{
     max-width: 200px;
     background-color: #1b8047;
+}
+
+@media (max-width: 480px) {
+    .newLetter{
+background-image: url('../assets/dylan-nolte-eL6K8uiRPsE-unsplash.jpg');
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+
+}
+
+@media (max-width: 880px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 852px) {
+    .container-newletter{
+        padding-left: 100px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container-newletter{
+        padding-left: 50px;
+    }
+
 }
