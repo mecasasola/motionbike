@@ -354,4 +354,40 @@ body > section {
   width: auto;
 }
 
+.anuncio {
+  background-color: rgb(25.3536585366, 123.1463414634, 118.3170731707);
+  border: 1px solid rgb(12.2926829268, 59.7073170732, 57.3658536585);
+  margin-bottom: 2rem;
+}
+.anuncio .contenido-anuncio {
+  padding: 2rem;
+}
+.anuncio h3, .anuncio p {
+  margin: 0;
+}
+
+.precio {
+  color: #156662;
+  font-weight: #fdda00;
+  font-size: 3rem;
+}
+
+.iconos-caracteristicas {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  max-width: 40rem;
+}
+.iconos-caracteristicas li {
+  flex: 1;
+  display: flex;
+}
+.iconos-caracteristicas li img {
+  flex: 0 0 3rem;
+  margin-right: 1rem;
+}
+.iconos-caracteristicas li p {
+  font-weight: #000000;
+}
+
 /*# sourceMappingURL=style.css.map */
